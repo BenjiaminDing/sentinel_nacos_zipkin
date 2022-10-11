@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="sentinel_nacos">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/shop-common/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/shop-common/src/main/java" />
+      <root url="file://$PROJECT_DIR$/shop-common/src/test/java" />
+      <root url="file://$PROJECT_DIR$/shop-order/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/shop-order/src/main/java" />
+      <root url="file://$PROJECT_DIR$/shop-order/src/test/java" />
+      <root url="file://$PROJECT_DIR$/shop-product/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/shop-product/src/main/java" />
+      <root url="file://$PROJECT_DIR$/shop-product/src/test/java" />
+      <root url="file://$PROJECT_DIR$/shop-user/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/shop-user/src/main/java" />
+      <root url="file://$PROJECT_DIR$/shop-user/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

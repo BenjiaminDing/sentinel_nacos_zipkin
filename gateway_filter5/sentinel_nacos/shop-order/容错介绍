@@ -1,0 +1,6 @@
+在上游进行容错
+
+使用Sentinel 提供一个轻量级的控制台, 它提供机器发现、单机资源实时监控以及规则管理等功能。面板dashbpard
+java -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.7.0.jar
+
+sentinel在版本之后 sentinel web filter默认收敛所有URL的入口context，因此链路限流不生效。

@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: service-product
+  cloud:
+    nacos:
+      config:
+          server-addr: 127.0.0.1:8848   #配置中心地址
+          file-extension: properties
+          namespace: 4eee4aaf-eb7e-4553-8c7f-21cad83b5235
+          group: DEFAULT_GROUP
+          shared-dataids: all-service.properties  # 配置要引入的配置,不同微服务之间共享
+          refreshable-dataids: all-service.properties  # 配置要引入的配置,不同微服务之间共享
+
+  profiles:
+    active: test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

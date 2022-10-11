@@ -1,0 +1,12 @@
+[2022-06-04T01:27:32,164][WARN ][o.e.d.r.a.a.i.RestGetIndexTemplateAction] [w57rFib] [types removal] The parameter include_type_name should be explicitly specified in get template requests to prepare for 7.0. In 7.0 include_type_name will default to 'false', which means responses will omit the type name in mapping definitions.
+[2022-06-04T01:27:32,185][WARN ][o.e.d.r.a.a.i.RestPutIndexTemplateAction] [w57rFib] [types removal] The parameter include_type_name should be explicitly specified in put template requests to prepare for 7.0. In 7.0 include_type_name will default to 'false', and requests are expected to omit the type name in mapping definitions.
+[2022-06-04T01:27:32,190][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.
+[2022-06-04T01:27:32,195][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] [_default_] mapping is deprecated since it is not useful anymore now that indexes cannot have more than one type
+[2022-06-04T01:27:32,231][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.
+[2022-06-04T01:27:32,263][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.
+[2022-06-04T01:29:06,946][WARN ][o.e.d.c.m.MetaDataCreateIndexService] [w57rFib] index or alias name [zipkin:span-2022-06-03] containing ':' is deprecated. Elasticsearch 7.x will read, but not allow creation of new indices containing ':'
+[2022-06-04T01:29:06,949][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.
+[2022-06-04T01:29:06,950][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] [_default_] mapping is deprecated since it is not useful anymore now that indexes cannot have more than one type
+[2022-06-04T01:29:06,974][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.
+[2022-06-04T01:29:07,043][WARN ][o.e.d.c.m.MetaDataCreateIndexService] [w57rFib] index or alias name [zipkin:span-2022-06-03] containing ':' is deprecated. Elasticsearch 7.x will read, but not allow creation of new indices containing ':'
+[2022-06-04T01:29:07,235][WARN ][o.e.d.i.m.MapperService  ] [w57rFib] Setting index.mapper.dynamic is deprecated since indices may not have more than one type anymore.

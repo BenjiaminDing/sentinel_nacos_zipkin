@@ -1,0 +1,1 @@
+项目的搭建使用springboot  spring-cloud  spring-cloud-alibaba 三部分搭建聚合项目，但是 三者的版本注意搭配，去官网查询，版本兼容性 

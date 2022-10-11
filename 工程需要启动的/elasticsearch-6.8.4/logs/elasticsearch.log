@@ -1,0 +1,121 @@
+[2022-06-04T01:24:20,504][INFO ][o.e.e.NodeEnvironment    ] [w57rFib] using [1] data paths, mounts [[新加卷 (D:)]], net usable_space [195.3gb], net total_space [274.5gb], types [NTFS]
+[2022-06-04T01:24:20,508][INFO ][o.e.e.NodeEnvironment    ] [w57rFib] heap size [989.8mb], compressed ordinary object pointers [true]
+[2022-06-04T01:24:20,511][INFO ][o.e.n.Node               ] [w57rFib] node name derived from node ID [w57rFibYRG62hY-00Dx2AQ]; set [node.name] to override
+[2022-06-04T01:24:20,511][INFO ][o.e.n.Node               ] [w57rFib] version[6.8.4], pid[4904], build[default/zip/bca0c8d/2019-10-16T06:19:49.319352Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_211/25.211-b12]
+[2022-06-04T01:24:20,512][INFO ][o.e.n.Node               ] [w57rFib] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\22166\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\benwork\sentinel_nacos\mybaits方式\elasticsearch-6.8.4, -Des.path.conf=D:\benwork\sentinel_nacos\mybaits方式\elasticsearch-6.8.4\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2022-06-04T01:24:21,918][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [aggs-matrix-stats]
+[2022-06-04T01:24:21,918][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [analysis-common]
+[2022-06-04T01:24:21,918][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [ingest-common]
+[2022-06-04T01:24:21,918][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [ingest-geoip]
+[2022-06-04T01:24:21,919][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [ingest-user-agent]
+[2022-06-04T01:24:21,919][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [lang-expression]
+[2022-06-04T01:24:21,919][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [lang-mustache]
+[2022-06-04T01:24:21,919][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [lang-painless]
+[2022-06-04T01:24:21,919][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [mapper-extras]
+[2022-06-04T01:24:21,920][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [parent-join]
+[2022-06-04T01:24:21,920][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [percolator]
+[2022-06-04T01:24:21,920][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [rank-eval]
+[2022-06-04T01:24:21,920][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [reindex]
+[2022-06-04T01:24:21,921][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [repository-url]
+[2022-06-04T01:24:21,922][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [transport-netty4]
+[2022-06-04T01:24:21,922][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [tribe]
+[2022-06-04T01:24:21,922][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-ccr]
+[2022-06-04T01:24:21,923][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-core]
+[2022-06-04T01:24:21,923][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-deprecation]
+[2022-06-04T01:24:21,923][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-graph]
+[2022-06-04T01:24:21,923][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-ilm]
+[2022-06-04T01:24:21,924][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-logstash]
+[2022-06-04T01:24:21,924][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-ml]
+[2022-06-04T01:24:21,924][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-monitoring]
+[2022-06-04T01:24:21,924][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-rollup]
+[2022-06-04T01:24:21,925][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-security]
+[2022-06-04T01:24:21,925][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-sql]
+[2022-06-04T01:24:21,925][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-upgrade]
+[2022-06-04T01:24:21,925][INFO ][o.e.p.PluginsService     ] [w57rFib] loaded module [x-pack-watcher]
+[2022-06-04T01:24:21,926][INFO ][o.e.p.PluginsService     ] [w57rFib] no plugins loaded
+[2022-06-04T01:24:24,360][INFO ][o.e.x.s.a.s.FileRolesStore] [w57rFib] parsed [0] roles from file [D:\benwork\sentinel_nacos\mybaits方式\elasticsearch-6.8.4\config\roles.yml]
+[2022-06-04T01:24:24,948][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [w57rFib] [controller/20264] [Main.cc@109] controller (64 bit): Version 6.8.4 (Build 93ad89b02ff490) Copyright (c) 2019 Elasticsearch BV
+[2022-06-04T01:24:25,306][DEBUG][o.e.a.ActionModule       ] [w57rFib] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2022-06-04T01:24:25,465][INFO ][o.e.d.DiscoveryModule    ] [w57rFib] using discovery type [zen] and host providers [settings]
+[2022-06-04T01:24:25,989][INFO ][o.e.n.Node               ] [w57rFib] initialized
+[2022-06-04T01:24:25,989][INFO ][o.e.n.Node               ] [w57rFib] starting ...
+[2022-06-04T01:24:26,542][INFO ][o.e.t.TransportService   ] [w57rFib] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-06-04T01:24:29,586][INFO ][o.e.c.s.MasterService    ] [w57rFib] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {w57rFib}{w57rFibYRG62hY-00Dx2AQ}{x-7pNBvdR3KzJ5658VrYyg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16994652160, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2022-06-04T01:24:29,590][INFO ][o.e.c.s.ClusterApplierService] [w57rFib] new_master {w57rFib}{w57rFibYRG62hY-00Dx2AQ}{x-7pNBvdR3KzJ5658VrYyg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16994652160, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {w57rFib}{w57rFibYRG62hY-00Dx2AQ}{x-7pNBvdR3KzJ5658VrYyg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=16994652160, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2022-06-04T01:24:29,630][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [w57rFib] Failed to clear cache for realms [[]]
+[2022-06-04T01:24:29,657][INFO ][o.e.g.GatewayService     ] [w57rFib] recovered [0] indices into cluster_state
+[2022-06-04T01:24:29,738][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.watches] for index patterns [.watches*]
+[2022-06-04T01:24:29,764][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.watch-history-9] for index patterns [.watcher-history-9*]
+[2022-06-04T01:24:29,783][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2022-06-04T01:24:29,803][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2022-06-04T01:24:29,829][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2022-06-04T01:24:29,847][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2022-06-04T01:24:29,863][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2022-06-04T01:24:29,878][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2022-06-04T01:24:29,933][INFO ][o.e.h.n.Netty4HttpServerTransport] [w57rFib] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2022-06-04T01:24:29,934][INFO ][o.e.n.Node               ] [w57rFib] started
+[2022-06-04T01:24:29,943][INFO ][o.e.l.LicenseService     ] [w57rFib] license [99bf807d-26bb-4d76-a1a2-474adeb05b43] mode [basic] - valid
+[2022-06-04T01:27:32,196][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [zipkin:span_template] for index patterns [zipkin:span-*]
+[2022-06-04T01:27:32,233][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [zipkin:dependency_template] for index patterns [zipkin:dependency-*]
+[2022-06-04T01:27:32,265][INFO ][o.e.c.m.MetaDataIndexTemplateService] [w57rFib] adding template [zipkin:autocomplete_template] for index patterns [zipkin:autocomplete-*]
+[2022-06-04T01:29:06,953][INFO ][o.e.c.m.MetaDataCreateIndexService] [w57rFib] [zipkin:span-2022-06-03] creating index, cause [auto(bulk api)], templates [zipkin:span_template], shards [5]/[1], mappings [_default_, span]
+[2022-06-04T01:29:07,239][INFO ][o.e.c.m.MetaDataMappingService] [w57rFib] [zipkin:span-2022-06-03/OmUWW6WUQ2SI68mZVIm5uw] update_mapping [span]
+[2022-06-04T01:29:28,400][WARN ][o.e.h.n.Netty4HttpServerTransport] [w57rFib] caught exception while handling client http traffic, closing connection [id: 0xf2d7a1e0, L:/127.0.0.1:9200 - R:/127.0.0.1:57373]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347) ~[netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:556) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:510) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+[2022-06-04T01:29:28,400][WARN ][o.e.h.n.Netty4HttpServerTransport] [w57rFib] caught exception while handling client http traffic, closing connection [id: 0x3a13987d, L:/127.0.0.1:9200 - R:/127.0.0.1:59772]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347) ~[netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:556) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:510) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+[2022-06-04T01:29:28,400][WARN ][o.e.h.n.Netty4HttpServerTransport] [w57rFib] caught exception while handling client http traffic, closing connection [id: 0xd88a4a77, L:/127.0.0.1:9200 - R:/127.0.0.1:59773]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347) ~[netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:556) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:510) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+[2022-06-04T01:30:07,653][INFO ][o.e.b.Bootstrap          ] [w57rFib] running graceful exit on windows
+[2022-06-04T01:30:07,654][INFO ][o.e.n.Node               ] [w57rFib] stopping ...
+[2022-06-04T01:30:07,664][INFO ][o.e.x.w.WatcherService   ] [w57rFib] stopping watch service, reason [shutdown initiated]
+[2022-06-04T01:30:07,877][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [w57rFib] [controller/20264] [Main.cc@148] Ml controller exiting
+[2022-06-04T01:30:07,878][INFO ][o.e.x.m.p.NativeController] [w57rFib] Native controller process has stopped - no new native processes can be started
+[2022-06-04T01:30:07,976][INFO ][o.e.n.Node               ] [w57rFib] stopped
+[2022-06-04T01:30:07,976][INFO ][o.e.n.Node               ] [w57rFib] closing ...
+[2022-06-04T01:30:07,983][INFO ][o.e.n.Node               ] [w57rFib] closed

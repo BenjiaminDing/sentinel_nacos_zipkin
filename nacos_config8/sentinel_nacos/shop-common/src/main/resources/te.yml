@@ -1,0 +1,50 @@
+#server:
+#  port: 8090
+#
+#spring:
+#  application:
+#    name: service-common
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url:
+#    data-username: root
+#    data-password: "000000"
+#  jpa:
+#    properties:
+#    hibernate:
+#      ddl-auto: update
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+##server:
+##port: 8081
+##spring:
+##application:
+## name: service-product
+##datasource:
+## driver-class-name: com.mysql.jdbc.Driver
+## url: jdbc:mysql:///shop?
+##  serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+## username: root
+## password: root
+##jpa:
+## properties:
+##  hibernate:
+##   hbm2ddl:
+##    auto: update
+##   dialect: org.hibernate.dialect.MySQL5InnoDBDialect

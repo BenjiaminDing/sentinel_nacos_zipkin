@@ -1,0 +1,42 @@
+#server:
+#  port: 8081
+#
+#spring:
+#  application:
+#    name: service-product
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+#    data-username: root
+#    data-password: "000000"
+#
+#  jpa:
+#    properties:
+#    hibernate:
+#      ddl-auto: update
+#  jooq:
+#    sql-dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

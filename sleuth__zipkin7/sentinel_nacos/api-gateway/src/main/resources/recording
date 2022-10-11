@@ -1,0 +1,31 @@
+    - id:  是值上一级下面有多个对象，数组
+
+    server:
+      port: 7000
+
+    #
+    spring:
+      application:
+        name: api-gateway
+      cloud:
+        gateway:
+          routes:
+            - id:
+              uri: http
+              order:
+              predicates:
+                -
+              filters:
+
+--------------
+public class RouteDefinition {
+    private String id;
+    @NotEmpty
+    @Valid
+    private List<PredicateDefinition> predicates = new ArrayList();
+    @Valid
+    private List<FilterDefinition> filters = new ArrayList();
+    @NotNull
+    private URI uri;
+    private Map<String, Object> metadata = new HashMap();
+    private int order = 0;

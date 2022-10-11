@@ -1,3 +1,0 @@
-runserver.cmd和runbroker.cmd 里的内存设置改为256m
-运行   mqnamesrv.cmd
-运行 mqbroker.cmd

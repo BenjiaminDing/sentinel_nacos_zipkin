@@ -1,2 +1,0 @@
-在当前文件夹下 cmd  输入 下面命令 enter
-java -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=elasticsearch --ES-HOST=localhost:9200

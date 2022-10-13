@@ -24,7 +24,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * created at 2021/9/15 16:37  sentinel_nacos
+ *
+ * 关于    4.6.5 系统规则  ，明确异常的抛出机制
  */
 //异常处理页面
 @Component

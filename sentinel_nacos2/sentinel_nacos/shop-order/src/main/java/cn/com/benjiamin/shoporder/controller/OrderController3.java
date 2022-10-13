@@ -44,6 +44,13 @@ public class OrderController3 {
         return "服务容错，message2" + "+/" + orderServiceImpl3.messageService();
     }
 
+
+    /**
+     * 学习  4.6.3 热点规则  处理
+     * @param name
+     * @param age
+     * @return
+     */
     @GetMapping("/order/message3")
     @SentinelResource("hot-message3")   // 热点规则需要这个
     public String message3(String name, int age) {
@@ -52,12 +59,20 @@ public class OrderController3 {
         return "服务容错，降级规则，热点规则message3" + "/" + name + "," + String.valueOf(age);
     }
 
+
+
     @GetMapping("/order/message4")
     public String message4() {
 
-        return "服务容错，授权规则，message4" + "/";
+        return "学习  4.6.4 授权规则  服务容错，授权规则，message4" + "/";
     }
 
 
 
 }
+
+
+/*
+
+4.6.。。节后面的东西有点模糊，存在模糊点可以再回顾一下
+ */

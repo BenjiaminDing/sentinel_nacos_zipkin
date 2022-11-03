@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08dd2631-2ef5-4746-a673-ec6e2a93b6b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/sentinel_nacos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/sentinel_nacos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/test/java/cn/com/benjiamin/shoporder/ShopOrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/test/java/cn/com/benjiamin/shoporder/ShopOrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/java/cn/com/benjiamin/shopuser/ShopUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/java/cn/com/benjiamin/shopuser/ShopUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/config/GatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/config/GatewayConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/predicates/AgeRoutePredicateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/predicates/AgeRoutePredicateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/shop-product/src/main/java/cn/com/benjiamin/shopproduct/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/shop-product/src/main/java/cn/com/benjiamin/shopproduct/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos2/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos2/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/sentnel服务容错--不完善的.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/sentnel服务容错--不完善的.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenHome" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Java_jar_package/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Java_jar_package\aliyun\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="25lfrMLNrtRaOXqZXdPHxvTOMew" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring源码v1/lesson3/spring-framework-5.3.10" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.benjiamin.shopproduct.service.impl" />
+      <recent name="cn.com.benjiamin.shopproduct.service" />
+      <recent name="cn.com.benjiamin.shopproduct.dao" />
+      <recent name="cn.com.benjiamin.shopcommon.model" />
+      <recent name="cn.com.benjiamin.shoporder.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project2021\Java\springcloud0214\sentinel\sentinel_nacos\shop-order\src\main\resources" />
+      <recent name="D:\Project2021\Java\springcloud0214\sentinel\sentinel_nacos\shop-order\src\main\java\cn\com\benjiamin\shoporder" />
+      <recent name="D:\Project2021\Java\springcloud0214\sentinel\sentinel_nacos\shop-product\src\main\java\cn\com\benjiamin\shopproduct" />
+      <recent name="D:\Project2021\Java\springcloud0214\sentinel\sentinel_nacos\shop-common\src\main\resources" />
+      <recent name="D:\Project2021\Java\springcloud0214\sentinel\sentinel_nacos\shop-user\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8091" />
+          <option name="urlPath" value="/order/message1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8091" />
+          <option name="urlPath" value="/order/message" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8091" />
+          <option name="urlPath" value="/order/prod/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:10003" />
+          <option name="urlPath" value="/product/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:10003" />
+          <option name="urlPath" value="/product/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:10003" />
+          <option name="urlPath" value="/product/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -Dmvn.test.skip=true" />
+      <command value="mvn clean package " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopProductApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProductApplicationTests.findProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.benjiamin.shopproduct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.benjiamin.shopproduct" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.benjiamin.shopproduct.ShopProductApplicationTests" />
+      <option name="METHOD_NAME" value="findProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel_nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.sentinel_nacos.SentinelNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.shopcommon.ShopCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.shoporder.ShopOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProductApplication 1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.shopproduct.ShopProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.shopproduct.ShopProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.benjiamin.shopuser.ShopUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ShopProductApplicationTests.findProduct" />
+      <item itemvalue="Spring Boot.SentinelNacosApplication" />
+      <item itemvalue="Spring Boot.ShopCommonApplication" />
+      <item itemvalue="Spring Boot.ShopOrderApplication" />
+      <item itemvalue="Spring Boot.ShopProductApplication" />
+      <item itemvalue="Spring Boot.ShopProductApplication 1" />
+      <item itemvalue="Spring Boot.ShopUserApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShopProductApplicationTests.findProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\user\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08dd2631-2ef5-4746-a673-ec6e2a93b6b9" name="Default Changelist" comment="" />
+      <created>1646106791207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646106791207</updated>
+      <workItem from="1646106794214" duration="7873000" />
+      <workItem from="1646133049856" duration="5242000" />
+      <workItem from="1646183152636" duration="10840000" />
+      <workItem from="1646212843242" duration="610000" />
+      <workItem from="1646226127501" duration="4001000" />
+      <workItem from="1646270615778" duration="2482000" />
+      <workItem from="1646273311678" duration="6366000" />
+      <workItem from="1646279788014" duration="948000" />
+      <workItem from="1646288778032" duration="626000" />
+      <workItem from="1646635157877" duration="1826000" />
+      <workItem from="1647237063383" duration="929000" />
+      <workItem from="1647339237146" duration="878000" />
+      <workItem from="1647340510252" duration="986000" />
+      <workItem from="1647341794387" duration="2579000" />
+      <workItem from="1647355674075" duration="1509000" />
+      <workItem from="1647360173267" duration="197000" />
+      <workItem from="1647361388653" duration="11175000" />
+      <workItem from="1647572912129" duration="21000" />
+      <workItem from="1647616797331" duration="10315000" />
+      <workItem from="1647662412147" duration="1893000" />
+      <workItem from="1647673169379" duration="6382000" />
+      <workItem from="1647768685141" duration="6012000" />
+      <workItem from="1647830834184" duration="29000" />
+      <workItem from="1648126904869" duration="285000" />
+      <workItem from="1648543959444" duration="16000" />
+      <workItem from="1653365245613" duration="5224000" />
+      <workItem from="1653402464094" duration="23000" />
+      <workItem from="1653402499726" duration="2798000" />
+      <workItem from="1653833152332" duration="200000" />
+      <workItem from="1654268201514" duration="76000" />
+      <workItem from="1654787289860" duration="851000" />
+      <workItem from="1659840532729" duration="2132000" />
+      <workItem from="1659939463658" duration="1746000" />
+      <workItem from="1663035088580" duration="2490000" />
+      <workItem from="1663039293751" duration="13000" />
+      <workItem from="1665551020991" duration="2784000" />
+      <workItem from="1666497771629" duration="161000" />
+      <workItem from="1666596672924" duration="14484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1666614932934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1666614932934" />
+    <state x="550" y="169" key="FileChooserDialogImpl" timestamp="1666619217569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="169" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666619217569" />
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.0.center" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.0.left" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.0.right" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.1.bottom" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.1.center" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.1.left" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.1.right" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.2.bottom" timestamp="1666619218790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666619218790" />
+    <state width="1493" height="60" key="GridCell.Tab.2.center" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.2.left" timestamp="1666619218789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1666619218789" />
+    <state width="1493" height="60" key="GridCell.Tab.2.right" timestamp="1666619218790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1666619218790" />
+    <state x="275" y="0" key="SettingsEditor" timestamp="1663037691632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="275" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1663037691632" />
+    <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1663037773160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1663037773160" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1666601982323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1666601982323" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-product/src/main/java/cn/com/benjiamin/shopproduct/service/impl/ProductServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-product/src/main/java/cn/com/benjiamin/shopproduct/service/impl/ProductServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

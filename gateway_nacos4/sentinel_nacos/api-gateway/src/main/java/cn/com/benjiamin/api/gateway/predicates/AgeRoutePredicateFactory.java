@@ -16,7 +16,7 @@ import java.util.function.Predicate;
 
 /**
  * created at 2021/9/15 16:37  sentinel_nacos
- * 这是一个自定义路由断言的工厂类，
+ * 这是一个自定义路由断言的工厂类，spring.cloud.gateway.discovery.locator.enabled
  * 要求两个： 第一名字必须是配置{Age}+RoutePredicateFactory,
  * 第二个要求：必须继承AbstractRoutePredicateFactory<配置类>
  */
@@ -40,7 +40,6 @@ public class AgeRoutePredicateFactory extends AbstractRoutePredicateFactory<AgeR
 
     /**
      * 断言逻辑
-     *
      * @param config
      * @return
      */

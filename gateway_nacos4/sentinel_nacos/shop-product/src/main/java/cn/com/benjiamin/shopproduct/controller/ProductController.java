@@ -48,4 +48,10 @@ public class ProductController {
         // Car(carNo=苏8989, address=背景, company=西蒙兹, eEngineNo=null, weight=4)
     }
 
+
+    @GetMapping("/product")
+    public String ProductAge(int age) {
+
+        return "测试自定义断言age（min,max）范围：：符合要求》》，值"+age;
+    }
 }

@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08dd2631-2ef5-4746-a673-ec6e2a93b6b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/config/ExceptionHandlerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/config/ExceptionHandlerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/config/RequestOriginParserDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/config/RequestOriginParserDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/controller/OrderController3.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/cn/com/benjiamin/shoporder/controller/OrderController3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/sentinel_nacos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/sentinel_nacos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/test/java/cn/com/benjiamin/shoporder/ShopOrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-order/src/test/java/cn/com/benjiamin/shoporder/ShopOrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/java/cn/com/benjiamin/shopuser/ShopUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/java/cn/com/benjiamin/shopuser/ShopUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../RocketMQ9/sentinel_nacos/shop-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/config/GatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/config/GatewayConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_filter5/sentinel_nacos/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/predicates/AgeRoutePredicateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/java/cn/com/benjiamin/api/gateway/predicates/AgeRoutePredicateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/shop-product/src/main/java/cn/com/benjiamin/shopproduct/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../gateway_nacos4/sentinel_nacos/shop-product/src/main/java/cn/com/benjiamin/shopproduct/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/sentnel服务容错--不完善的.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/sentnel服务容错--不完善的.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习 4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sentinel服务治理学习笔记/流量控制学习.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sentinel_nacos3/sentinel_nacos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sentinel_nacos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -377,6 +396,7 @@
       <workItem from="1663039231184" duration="1252000" />
       <workItem from="1665577903549" duration="552000" />
       <workItem from="1665578761317" duration="16000" />
+      <workItem from="1666497733852" duration="36000" />
     </task>
     <servers />
   </component>
@@ -384,10 +404,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1665578458593">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1666497768280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1665578458593" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666497768280" />
     <state x="468" y="144" width="609" height="536" key="find.popup" timestamp="1665578126202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

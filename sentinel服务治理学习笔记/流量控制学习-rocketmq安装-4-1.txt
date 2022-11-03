@@ -1,0 +1,103 @@
+
+mqnamesrv--相当于注册中心
+mqbroker--服务器
+ cd /usr/local/rocketmq/rocketmq-all-4.8.0-bin-release/bin
+ 
+./mqnamesrv    --第一个窗口
+
+#让broker连接到注册中心namesrv上
+./mqbroker -n localhost:9876   --第二个窗口
+
+启动broker后提示
+The broker[bennode2, 192.168.94.128:10911] boot success. serializeType=JSON and name server is localhost:9876
+
+--10911是当前broker地址，
+--localhost：9876 是nameserver地址，也就是 192.168.94.128:9876
+
+
+
+需要开两个窗口 没有使用后天启动
+vim tools.sh   
+添加 一行
+export NAMESRV_ADDR=localhost:9876
+
+
+#测试提供者和消费
+./tools.sh org.apache.rocketmq.example.quickstart.Producer
+
+./tools.sh org.apache.rocketmq.example.quickstart.Consumer
+
+
+
+
+
+
+
+----------------
+#下载控制台
+https://github.com/apache/rocketmq-dashboard
+下载rocketmq-dashboard
+
+配置控制台连接nameserver的地址
+    namesrvAddrs:
+	  - 192.168.94.128:9876
+	  - 192.168.94.128:9876
+	  
+#打成 jar包
+	  
+mvn clean package -Dmaven.test.skip=true  
+
+
+
+cd usr/local/rocketmq/rocketmq-console/
+
+java -jar rocketmq-dashboard-1.0.1-SNAPSHOT.jar
+#控制台访问 地址
+192.168.94.128:7777
+
+----
+
+关闭namesrv服务：./mqshutdown namesrv
+
+关闭broker服务 ：./mqshutdown  broker
+
+日志目录：/root/logs/rocketmqlogs
+
+日志目录：/root/logs/rocketmqlogs/broker.log
+
+可以修改配置文件，改变日志路径
+rocketmq-all-4.8.0-bin-release.zip\rocketmq-all-4.8.0-bin-release\conf\logback_broker.xml    
+
+
+
+
+
+------------
+
+# 编辑runbroker.sh和runserver.sh修改默认JVM大小
+vi runbroker.sh
+vi runserver.sh
+./mqbroker -n localhost:9876
+
+是指定broker连接nameserv时候的端口
+
+tools.sh  org.apache.rocketmq.example.quickstart.Consumer
+
+JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m"
+
+vi runserver.sh
+
+JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m -XX:MetaspaceSize=128m  -XX:MaxMetaspaceSize=320m"
+
+JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -XX:MetaspaceSize=128m  -XX:MaxMetaspaceSize=320m"
+
+
+
+
+#启动 broker
+
+nohup sh bin/mqbroker -n localhost:9876 &
+ tail -f ~/logs/rocketmqlogs/broker.log
+
+
+

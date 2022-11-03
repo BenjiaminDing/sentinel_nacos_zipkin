@@ -21,9 +21,10 @@ spring:
             - Method=GET
           filters:
             - StripPrefix=1
+
+#配置日志过滤器
 #            - Log=true,false
 #            - SetStatus=250
-
         - id: order_route
           uri: lb://shop-order
 #          uri: http://127.0.0.1:8091
@@ -32,7 +33,15 @@ spring:
             - Path=/order-serv/**
           filters:
             - StripPrefix=1
-#     spring.main.web-application-type=reactive  是提出网关和tomcat的关系
+  #     spring.main.web-application-type=reactive  是提出网关和tomcat的关系
   main:
     web-application-type: reactive
 
+##----------------------------------
+# 对应上面熔断器
+#hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+      #  配置熔断器过滤器
+#      - name: Hystrix
+#        args:
+#          name: fallbackcmd
+#          fallbackUri: forward:/fallback

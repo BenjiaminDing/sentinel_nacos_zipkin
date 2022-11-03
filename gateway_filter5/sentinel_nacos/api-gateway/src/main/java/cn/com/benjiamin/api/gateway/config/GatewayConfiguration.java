@@ -32,6 +32,14 @@ import reactor.core.publisher.Mono;
 import javax.annotation.PostConstruct;
 import java.util.*;
 
+/**
+ *        <!--    从1.6.0版本开始，Sentinel提供了SpringCloud Gateway的适配模块，可以提供两种资源维度的限流：
+ *                 route维度：即在Spring配置文件中配置的路由条目，资源名为对应的routeId
+ *                自定义API维度：用户可以利用Sentinel提供的API来自定义一些API分组
+ *                gateway限流-->
+ *
+ *                用于sentinel-提供的限流API
+ */
 @Configuration
 public class GatewayConfiguration {
     private final List<ViewResolver> viewResolvers;
@@ -57,7 +65,7 @@ public class GatewayConfiguration {
 //        Set<GatewayFlowRule> rules = new HashSet<>();
 //        rules.add(
 //                new GatewayFlowRule("product_route") //资源名称,对应路由id
-//                        .setCount(4) // 限流阈值
+//                        .setCount(1) // 限流阈值
 //                        .setIntervalSec(1) // 统计时间窗口，单位是秒，默认是 1 秒
 //        );
 //        GatewayRuleManager.loadRules(rules);
@@ -107,7 +115,7 @@ public class GatewayConfiguration {
         ApiDefinition api2 = new ApiDefinition("product_api2")
                 .setPredicateItems(new HashSet<ApiPredicateItem>() {{
                     // 以/product-serv/product/api2/demo1 完成的url路径匹配
-                    add(new ApiPathPredicateItem().setPattern("/product-serv/product/api2/demo1"));
+                    add(new ApiPathPredicateItem().setPattern("/product-serv/product/api2/demo3"));
                 }});
         definitions.add(api1);
         definitions.add(api2);

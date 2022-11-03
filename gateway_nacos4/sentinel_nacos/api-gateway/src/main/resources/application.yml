@@ -16,13 +16,15 @@ spring:
           uri: lb://service-product    #lb指的是负载均衡
 #          uri: http://127.0.0.1:8081
           order: 1
-          predicates:                          #断言判断条件
-            - Path=/product-serv/**
-            - Method=POST
-            - Age=18,60
-
+          predicates:
+            - Before=2019-12-31T23:59:59.789+08:00[Asia/Shanghai]
+           #- Age=18,60
+#            - Path=/product-serv/**
+          #            - Method=POST
           filters:
             - StripPrefix=1
+
+ #第二个服务器
         - id: order_route
           uri: lb://shop-order
 #          uri: http://127.0.0.1:8091
